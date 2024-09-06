@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "facture_proprietes",
+  "info": {
+    "singularName": "facture-propriete",
+    "pluralName": "facture-proprietes",
+    "displayName": "facture-propriete",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "hight": {
+      "type": "float"
+    },
+    "width": {
+      "type": "float"
+    },
+    "top": {
+      "type": "float"
+    },
+    "left": {
+      "type": "float"
+    }
+  }
+}

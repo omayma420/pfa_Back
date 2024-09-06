@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produits",
+  "info": {
+    "singularName": "produit",
+    "pluralName": "produits",
+    "displayName": "Produit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reference": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "quantite": {
+      "type": "integer"
+    },
+    "prix_uht": {
+      "type": "biginteger"
+    },
+    "tva": {
+      "type": "biginteger"
+    },
+    "remise": {
+      "type": "biginteger"
+    },
+    "total_ht": {
+      "type": "biginteger"
+    }
+  }
+}
