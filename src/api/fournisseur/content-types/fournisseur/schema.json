@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fournisseurs",
+  "info": {
+    "singularName": "fournisseur",
+    "pluralName": "fournisseurs",
+    "displayName": "Fournisseur"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_F": {
+      "type": "integer"
+    },
+    "Email_F": {
+      "type": "text"
+    },
+    "Adresse_F": {
+      "type": "text"
+    },
+    "CTVA_F": {
+      "type": "integer"
+    },
+    "Tel_F": {
+      "type": "biginteger"
+    }
+  }
+}
